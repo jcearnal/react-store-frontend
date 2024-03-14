@@ -32,6 +32,7 @@ This (mock) application allows users to browse, search for, and purchase fitness
 
    ```
    npm install
+   npm install react-router-dom
    ```
 
 3. Start the development server:
