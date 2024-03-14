@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# React Store Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The React Store Frontend is a React-based web application designed to meet the objectives of my INF 655, Front-End Web Development Midterm. 
 
-## Available Scripts
+This (mock) application allows users to browse, search for, and purchase fitness equipment, as well as manage their shopping cart.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Product Browsing**: Users can view a list of available fitness equipment on the home page, with a featured product highlighted.
+- **Search Functionality**: A search feature allows users to find products by name across the store's inventory.
+- **Product Details**: Users can view detailed information about each product by navigating to the product's detail page.
+- **Shopping Cart**: Users can add products to their shopping cart, view the cart's contents, adjust quantities, remove items, or clear the cart entirely.
+- **Checkout Process**: A simple checkout process collects basic shipping information and provides an order summary before submission.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Setup Instructions
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Prerequisites
 
-### `npm test`
+- Node.js (version 12.x or higher recommended)
+- npm (included with Node.js)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
 
-### `npm run build`
+1. Clone the repository to your local machine:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```
+   git clone https://github.com/jcearnal/react-store-frontend.git
+   cd xtreme-fitness-store
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Install the necessary dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```
+   npm install
+   ```
 
-### `npm run eject`
+3. Start the development server:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+After running the above command, your web browser should automatically open to [http://localhost:3000](http://localhost:3000), where you can start exploring the React Store Frontend.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Additional Information
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Technologies Used**: This project is built using ReactJS, with react-router-dom for routing and a Context API for state management.
+- **Styling**: The application is styled using CSS.
+- **Contributing**: No contributions are expected, this is a school assignment.
+- **Questions and Suggestions**: For any questions or suggestions regarding the application, contact me or open an issue.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

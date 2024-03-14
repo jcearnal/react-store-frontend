@@ -1,13 +1,209 @@
 body {
   margin: 0;
+  padding: 20px; 
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #121212; 
+  color: #e0e0e0; 
+}
+
+/* Enhanced Search Box */
+input[type="text"] {
+  width: 100%; 
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #2979ff; 
+  border-radius: 4px;
+  background-color: #121212; 
+  color: #e0e0e0; 
+  font-size: 16px; 
+}
+
+/* Larger Price Font */
+.product p {
+  font-size: 20px; 
+  color: #76ff03; 
+}
+
+/* Link Colors and Hover Effects */
+a {
+  color: #2979ff; 
+  transition: color 0.3s ease; 
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+a:visited {
+  color: #2979ff; 
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+  color: #90a4ae; 
 }
+
+/* Set product margin and alignment */
+.product {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  background-color: #1e1e1e; 
+  padding: 20px; 
+  border-radius: 10px; 
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  max-height: 200px; 
+}
+
+/* Responsive margins for product */
+@media (max-width: 600px) {
+  .product {
+    margin: 10px;
+  }
+}
+
+.logo {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px; 
+}
+
+/* Button styling */
+button {
+  background-color: #2979ff; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+button:hover {
+  background-color: #1c54b2; 
+}
+
+/* NAV BAR */
+.navbar {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  background-color: #333;
+  padding: 0 16px; 
+  overflow: hidden;
+  border-radius: 10px; 
+}
+
+.navbar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar-left, .navbar-right {
+  display: flex;
+}
+
+.navbar-right {
+  justify-content: flex-end;
+}
+
+.navbar-left a:not(:last-child), .navbar-right a:not(:last-child) {
+  margin-right: 10px; 
+}
+
+
+
+/* HOME */
+.home header {
+  text-align: center;
+  padding: 20px;
+}
+
+.home nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.home nav ul li {
+  margin: 0 10px;
+}
+
+.featured-products {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.view-more {
+  margin-top: 20px;
+}
+
+/* CART */
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cart-item img {
+  margin-right: 20px;
+}
+
+.total {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.cart-item img {
+  width: 50px;
+}
+
+.checkout-button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.clear-cart-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.proceed-to-checkout-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #29ff34; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
