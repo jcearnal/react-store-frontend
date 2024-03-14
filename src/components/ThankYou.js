@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+// Renders a basic thank you message on successful order completion
 function ThankYou() {
   return (
     <div className="thank-you">

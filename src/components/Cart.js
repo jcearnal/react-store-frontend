@@ -3,9 +3,12 @@ import { useCart } from '../context/CartContext';
 import { useNavigate } from 'react-router-dom';
 
 function Cart() {
+  // Accessing the cart context for cart operations and items
   const { cartItems, removeFromCart, clearCart } = useCart();
+  // useNavigate hook for redirecting to the checkout page
   const navigate = useNavigate();
 
+  // Calculating the total price of items in the cart
   const totalPrice = cartItems.reduce((total, item) => total + item.price * item.quantity, 0);
 
   return (
