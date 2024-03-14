@@ -25,7 +25,7 @@ This (mock) application allows users to browse, search for, and purchase fitness
 
    ```
    git clone https://github.com/jcearnal/react-store-frontend.git
-   cd xtreme-fitness-store
+   cd react-store-frontend
    ```
 
 2. Install the necessary dependencies:
